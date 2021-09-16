@@ -6,7 +6,7 @@ export class Navbar extends Component {
     render() {
         return (
             <nav className="mb-20 flex flex-row">
-            <Link to='/' className='pl-8'>MainPage</Link>
+            <Link to='/' className='pl-8 text-lg'>MainPage</Link>
             <div>
                 <Link to='/' className='bg-black text-white mx-20'>eCommerce</Link>
                 <Link to='/' className='bg-black text-white mx-20'>Web API</Link>
