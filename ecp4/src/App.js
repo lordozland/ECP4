@@ -3,13 +3,14 @@ import './App.css';
 
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import MainPage from './pages/mainpage';
+import Tracks from './components/layouts/tracks';
 
 function App() {
   return (
     <Router>
     <div>
-    {/* <Navbar />
-    <Tracks />   */}
+    {/* <Navbar /> */}
+    <Tracks />  
     <Switch>
       <Route path="/" exact component={MainPage} />
       {/* <Route path="/astrolove" component={AstroLove} />
