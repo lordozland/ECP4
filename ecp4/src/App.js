@@ -1,15 +1,17 @@
 // import logo from './logo.svg';
 import './App.css';
+import './index.css';
 
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import MainPage from './pages/mainpage';
 import Tracks from './components/layouts/tracks';
+import Navbar from './components/layouts/navbar';
 
 function App() {
   return (
     <Router>
     <div>
-    {/* <Navbar /> */}
+    <Navbar />
     <Tracks />  
     <Switch>
       <Route path="/" exact component={MainPage} />
