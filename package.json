@@ -1,0 +1,28 @@
+{
+  "name": "ecp4",
+  "version": "1.0.0",
+  "description": "Going to start this over, Jaarvis the Third",
+  "main": "index.js",
+  "scripts": {
+    "start": "cd ./ecp4 && npm start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lordozland/ECP4.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lordozland/ECP4/issues"
+  },
+  "homepage": "https://github.com/lordozland/ECP4#readme",
+  "dependencies": {
+    "concurrently": "^6.2.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.3.4",
+    "postcss": "^8.3.6",
+    "tailwindcss": "^2.2.15"
+  }
+}
