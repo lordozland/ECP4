@@ -2,8 +2,16 @@
 import './App.css';
 import './index.css';
 
+// Pages
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import MainPage from './pages/mainpage';
+import eCommerce from './pages/eCommerce';
+import webapi from './pages/webapi';
+import astrolove from './pages/astrolove';
+import sounds from './pages/sounds';
+import connect from './pages/connect';
+
+// Components
 import Tracks from './components/layouts/tracks';
 import Navbar from './components/layouts/navbar';
 
@@ -15,12 +23,11 @@ function App() {
     <Tracks />  
     <Switch>
       <Route path="/" exact component={MainPage} />
-      {/* <Route path="/astrolove" component={AstroLove} />
-      <Route path="/ecommerce" component={eCommerce} />
-      <Route path="/webapi" component={WebAPI} />
-      <Route path="/sound" component={Sound} />
-      <Route path="/Company" component={Company} />
-      <Route path="/Gaming" component={Gaming} /> */}
+      <Route path="/eCommerce" component={eCommerce} />
+      <Route path="/webapi" component={webapi} />
+      <Route path="/astrolove" component={astrolove} />
+      <Route path="/sounds" component={sounds} />
+      <Route path="/connect" component={connect} />
     </Switch>
     {/* <Footer /> */}
     </div>

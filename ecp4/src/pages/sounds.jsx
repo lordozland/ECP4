@@ -1,11 +1,11 @@
 import React from 'react';
 
-const MainPage = () => {
+const sounds = () => {
     return (
         <div className='App'>
-            <h1>Home</h1>
+            <h1>Sounds</h1>
         </div>
     )
 }
 
-export default MainPage
+export default sounds

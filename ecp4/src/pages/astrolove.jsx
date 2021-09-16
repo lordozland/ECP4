@@ -1,11 +1,11 @@
 import React from 'react';
 
-const MainPage = () => {
+const astrolove = () => {
     return (
         <div className='App'>
-            <h1>Home</h1>
+            <h1>AstroLove</h1>
         </div>
     )
 }
 
-export default MainPage
+export default astrolove

@@ -1,11 +1,11 @@
 import React from 'react';
 
-const MainPage = () => {
+const webapi = () => {
     return (
         <div className='App'>
-            <h1>Home</h1>
+            <h1>webapi</h1>
         </div>
     )
 }
 
-export default MainPage
+export default webapi
