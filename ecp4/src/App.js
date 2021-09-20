@@ -11,9 +11,10 @@ import astrolove from './pages/astrolove';
 import sounds from './pages/sounds';
 import connect from './pages/connect';
 
-// Components
+// Components/Layouts
 import Tracks from './components/layouts/tracks';
 import Navbar from './components/layouts/navbar';
+import Footer from './components/layouts/footer';
 
 function App() {
   return (
@@ -29,7 +30,7 @@ function App() {
       <Route path="/sounds" component={sounds} />
       <Route path="/connect" component={connect} />
     </Switch>
-    {/* <Footer /> */}
+    <Footer />
     </div>
     </Router>
   );

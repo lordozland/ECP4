@@ -1,23 +1,28 @@
-import React from 'react';
-// import 'materialize-css';
+import React, { Component } from 'react';
+// import { Link } from 'react-router-dom';
 
-// const styles = {
-// footer: {
-//     position: 'absolute',
-//     left:0,
-//     bottom:0,
-//     right:0,
 
-// }
+const styles = {
+footer: {
+    position: 'absolute',
+    left:0,
+    bottom:0,
+    right:0,
+    height: "100px"
+}
 
-// }
+}
 
-const Footer = () => {
-    return (
-        <div>
-
-        </div>
-    )
+export class Footer extends Component {
+    render() {
+        return (
+            <div>
+                <footer style={styles.footer} className="bg-black">
+                    <div className="text-white text-center">Hello</div>
+                </footer>
+            </div>
+        )
+    }
 }
 
 export default Footer
